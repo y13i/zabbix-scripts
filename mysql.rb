@@ -7,7 +7,7 @@ program :name,        "GetMySQLMetric"
 program :version,     "0.0.1"
 program :description, "Script to get data from MySQL."
 
-global_option "-h", "--host VALUE",     String,  "MySQL host."
+global_option "-H", "--host VALUE",     String,  "MySQL host."
 global_option "-u", "--username VALUE", String,  "MySQL username."
 global_option "-p", "--password VALUE", String,  "MySQL password."
 global_option "-P", "--port VALUE",     Integer, "MySQL port."
